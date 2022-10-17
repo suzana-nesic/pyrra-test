@@ -272,3 +272,8 @@ objects:
     - kind: ServiceAccount
       name: pyrra-kubernetes
       namespace: openshift-monitoring
+parameters:
+- name: IMAGE
+  value: ghcr.io/pyrra-dev/pyrra
+- name: RELEASE
+  value: v0.4.4
